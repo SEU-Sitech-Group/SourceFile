@@ -174,6 +174,21 @@ https://github.com/intel-analytics/BigDL
 2. 社区资料较少
 3. 无HA
 
+## Pytorch on Spaek
+
+优点：Pytorch学习成本较低，易上手，支持GPU，支持动态图
+
+缺点：
+
+1. 与Spark整合的方法不太成熟
+2. 已有的sparktorch框架自19年后很久没有维护
+
+相关解决方案：
+
+[将pytorch 模型嵌入到spark中进行大规模预测](https://www.jianshu.com/p/fc60c967c8b8)
+
+[How to run inference of a pytorch model on pyspark dataframe (create new column with prediction) using pandas_udf?](https://stackoverflow.com/questions/60074543/how-to-run-inference-of-a-pytorch-model-on-pyspark-dataframe-create-new-column)
+
 # 算法选择
 
 [可参考kaggle-Telco Customer Churn](https://www.kaggle.com/blastchar/telco-customer-churn)
